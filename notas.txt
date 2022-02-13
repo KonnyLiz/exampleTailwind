@@ -1,0 +1,2 @@
+para instalar tailwindcss ir a
+https://v2.tailwindcss.com/docs/guides/laravel
