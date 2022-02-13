@@ -1,2 +1,24 @@
 para instalar tailwindcss ir a
 https://v2.tailwindcss.com/docs/guides/laravel
+
+En el archivo tailwind.config.css se configuran las clases que necesitamos
+
+gap
+    espaciado entre columnas
+
+container
+    clase conteneddora de clases globales o padres.
+
+colors
+    clase para mostrar colores en tailwind
+
+Responsive desing 
+    clase que contine los puntos de quiebre para los elementos html
+
+16 columnas
+    se anade un comando mas en tailwind.config.js para dividir el contenedor en 
+    las 16 columnas que se quiere.
+    https://tailwindcss.com/docs/theme#customizing-the-default-theme
+
+cols-span
+    viene siendo como el colspan de una table, abarcando los espacios que indiquemos

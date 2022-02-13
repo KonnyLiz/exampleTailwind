@@ -3,7 +3,12 @@ module.exports = {
     "./resources/**/*.blade.php"
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+    },
+    extends: {
+      
+    }
   },
   plugins: [],
 }
