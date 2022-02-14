@@ -10,6 +10,7 @@
 
 <body>
     <div class="container">
+        <h1>Grid de Tailwind</h1>
         <div class="grid grid-cols-4 grid-rows-2 gap-3">
             <div class="bg-blue-200">Holis</div>
             <div class="bg-blue-300">B</div>
@@ -32,6 +33,22 @@
             <div class="bg-blue-500">10</div>
             <div class="bg-blue-500">11</div>
         </div>
+
+        <br>
+
+        <h1>Tipografias</h1>
+        <br>
+        <h2 class="">Titulos</h2>
+
+        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, soluta praesentium. Impedit distinctio
+            error modi sit ex voluptatibus veritatis consequatur minima at deleniti, dignissimos illo reprehenderit
+            accusamus sed eveniet minus!</p>
+
+        <ul class="">
+            <li class="">Uno</li>
+            <li class="">Dos</li>
+            <li class="">Tres</li>
+        </ul>
     </div>
 </body>
 

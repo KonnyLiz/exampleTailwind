@@ -22,3 +22,8 @@ Responsive desing
 
 cols-span
     viene siendo como el colspan de una table, abarcando los espacios que indiquemos
+
+Fuentes o tipografias
+    https://tailwindcss.com/docs/font-family
+
+Line Height interlineado
