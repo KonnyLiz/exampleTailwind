@@ -27,3 +27,19 @@ Fuentes o tipografias
     https://tailwindcss.com/docs/font-family
 
 Line Height interlineado
+
+Para agregar clases personalizadas en nuestro css
+    https://tailwindcss.com/docs/adding-custom-styles
+
+espaciados Letter Spacing
+    https://tailwindcss.com/docs/letter-spacing
+
+Estilos para listas
+    https://tailwindcss.com/docs/list-style-type
+
+Posicion de listas
+    https://tailwindcss.com/docs/list-style-position
+
+text colores
+    https://tailwindcss.com/docs/text-color
+

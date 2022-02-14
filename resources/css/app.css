@@ -2,16 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* importando fuentes externas */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
 /* no podemos incluir los breack de responsive desing */
 /* Aplicamos todas las clases al elemento */
-h2 {
-    @apply font-sans text-3xl font-semibold mb-3
-}
+@layer base {
+    h2 {
+        @apply text-3xl font-semibold mb-3;
+    }
 
-p {
-    @apply font-serif leading-10 mb-3 -ml-3
-}
-
-li {
-    @apply font-mono italic text-sm
+    h3 {
+        @apply mb-3 text-2xl font-semibold;
+    }
+    
+    p {
+        @apply leading-10 mb-3 -ml-3;
+    }
+    
+    li {
+        @apply italic text-sm;
+    }
 }
