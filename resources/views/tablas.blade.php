@@ -40,7 +40,6 @@
                     <td>San Juan del Sur</td>
                     <td>Julio 2018</td>
                 </tr>
-
             </tbody>
 
         </table>
