@@ -16,5 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     // return view('welcome');
     // return view('bordes');
-    return view('tablas');
+    // return view('tablas');
+    return view('wandh');
 });

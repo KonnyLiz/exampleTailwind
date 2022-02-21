@@ -544,6 +544,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-12 {
   height: 3rem;
 }
+.h-32 {
+  height: 8rem;
+}
+.h-full {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
 .w-64 {
   width: 16rem;
 }
@@ -555,6 +564,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-1\/2 {
   width: 50%;
+}
+.w-2\/5 {
+  width: 40%;
+}
+.w-screen {
+  width: 100vw;
+}
+.max-w-5xl {
+  max-width: 64rem;
 }
 .table-fixed {
   table-layout: fixed;
@@ -648,6 +666,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+}
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
@@ -773,11 +811,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 @media (min-width: 768px) {
 
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
   .md\:text-center {
     text-align: center;
   }
 }
 @media (min-width: 1024px) {
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
 
   .lg\:border-collapse {
     border-collapse: collapse;
