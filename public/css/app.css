@@ -1,4 +1,35 @@
 @import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap);
+.table th, .table td {
+
+    border-width: 1px;
+
+    --tw-border-opacity: 1;
+
+    border-color: rgb(156 163 175 / var(--tw-border-opacity));
+
+    padding-left: 0.5rem;
+
+    padding-right: 0.5rem;
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem
+}
+
+.table th {
+
+    --tw-text-opacity: 1;
+
+    color: rgb(75 85 99 / var(--tw-text-opacity))
+}
+
+/* aplicamos el estilo solo a los impares td del tbody */
+.table tbody tr:nth-child(2n+1) {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity))
+}
 /*
 ! tailwindcss v3.0.22 | MIT License | https://tailwindcss.com
 *//*
@@ -501,17 +532,35 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-3 {
   margin-bottom: 0.75rem;
 }
+.table {
+  display: table;
+}
 .grid {
   display: grid;
-}
-.h-12 {
-  height: 3rem;
 }
 .h-64 {
   height: 16rem;
 }
+.h-12 {
+  height: 3rem;
+}
 .w-64 {
   width: 16rem;
+}
+.w-full {
+  width: 100%;
+}
+.w-1\/4 {
+  width: 25%;
+}
+.w-1\/2 {
+  width: 50%;
+}
+.table-fixed {
+  table-layout: fixed;
+}
+.border-separate {
+  border-collapse: separate;
 }
 .list-inside {
   list-style-position: inside;
@@ -537,11 +586,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-3 {
   gap: 0.75rem;
 }
-.divide-y > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
 .divide-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(8px * calc(1 - var(--tw-divide-y-reverse)));
@@ -566,14 +610,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded-lg {
   border-radius: 0.5rem;
 }
-.border {
-  border-width: 1px;
+.border-4 {
+  border-width: 4px;
 }
 .border-8 {
   border-width: 8px;
-}
-.border-4 {
-  border-width: 4px;
 }
 .border-l-4 {
   border-left-width: 4px;
@@ -584,21 +625,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-dotted {
   border-style: dotted;
 }
-.border-blue-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(37 99 235 / var(--tw-border-opacity));
-}
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
-.bg-blue-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+.border-blue-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(37 99 235 / var(--tw-border-opacity));
 }
 .bg-blue-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 .bg-blue-400 {
   --tw-bg-opacity: 1;
@@ -624,11 +665,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .to-yellow-200 {
   --tw-gradient-to: #fef08a;
 }
-.bg-contain {
-  background-size: contain;
-}
 .bg-cover {
   background-size: cover;
+}
+.bg-contain {
+  background-size: contain;
 }
 .bg-fixed {
   background-attachment: fixed;
@@ -737,6 +778,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 @media (min-width: 1024px) {
+
+  .lg\:border-collapse {
+    border-collapse: collapse;
+  }
 
   .lg\:text-right {
     text-align: right;

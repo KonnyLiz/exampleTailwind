@@ -1,0 +1,12 @@
+.table th, .table td{
+    @apply border border-gray-400 px-2 py-2;
+}
+
+.table th {
+    @apply text-gray-600;
+}
+
+/* aplicamos el estilo solo a los impares td del tbody */
+.table tbody tr:nth-child(2n+1){
+    @apply bg-gray-200;
+}

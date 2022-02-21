@@ -4,6 +4,7 @@
 
 /* importando fuentes externas */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+@import "styles.css";
 
 /* no podemos incluir los breack de responsive desing */
 /* Aplicamos todas las clases al elemento */
