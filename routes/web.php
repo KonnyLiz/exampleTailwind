@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use LDAP\Result;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +18,6 @@ Route::get('/', function () {
     // return view('welcome');
     // return view('bordes');
     // return view('tablas');
-    return view('wandh');
+    // return view('wandh');
+    return view('layout');
 });
