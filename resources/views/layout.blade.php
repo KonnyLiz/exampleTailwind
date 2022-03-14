@@ -166,19 +166,14 @@
             el elemento hij siempre buscara la clase padre mas cercana con relative para posicionar --}}
 
     {{-- ejemplo 7 fixed --}}
-    <nav class="bg-blue-300 h-16 fixed inset-x-0">
+    {{-- <nav class="bg-blue-300 h-16 fixed inset-x-0 z-50">
         Este es el navegador o menu
     </nav>
 
-    {{-- al princio, el nav se oculta cuando hacemos scroll 
-        fixed hace que el nav se mantenga fijo en la parte de arriba--}}
-
-    <aside class="w-16 bg-gray-800 fixed inset-y-0">
-
+    <aside class="w-16 bg-gray-800 fixed inset-y-0 z-40">
     </aside>
 
     <div class="container pt-16">
-        {{-- bajamos el contenido con pt-16 para que el nav no lo cubra --}}
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea delectus sequi soluta nobis dignissimos, quis ut
             tempora. Atque veritatis sint hic temporibus deserunt corrupti natus asperiores officiis, neque iusto
             nesciunt?</p>
@@ -223,6 +218,38 @@
         <p>Provident quaerat laborum explicabo molestiae, veniam corrupti accusamus eum animi fugiat perferendis ipsam
             quod modi! Exercitationem impedit unde ipsum perferendis vero voluptatibus commodi doloremque! Ut reiciendis
             magni eius eligendi itaque.</p>
+    </div> --}}
+    {{-- bajamos el contenido con pt-16 para que el nav no lo cubra --}}
+
+    {{-- al princio, el nav se oculta cuando hacemos scroll 
+        fixed hace que el nav se mantenga fijo en la parte de arriba --}}
+
+        {{-- z permite controlar que va sobre que --}}
+
+        {{-- ejemplo 8 sticky --}}
+    <div class="container">
+        <h1 class="bg-gray-200 text-gray-700 font-nunito font-bold sticky top-0">Titulo 1 holis</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima quis eaque dolore. Reprehenderit debitis modi pariatur delectus sed dolorem repudiandae, blanditiis voluptatibus quo, minima, cumque ab quae dolore labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aliquid nam. Modi voluptas a natus tenetur molestiae unde ab hic eum fuga blanditiis! Distinctio necessitatibus totam ullam eaque porro culpa!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit cum eos laudantium tempora corrupti, magni dolorem? Reprehenderit alias libero quaerat. Aliquam itaque reiciendis perferendis asperiores officia esse dolorem quos nemo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aspernatur asperiores excepturi beatae voluptatum, neque molestiae ad rerum doloribus veritatis? Harum fuga incidunt similique, cumque aliquam ad quia aspernatur voluptates.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et vel veniam nulla dignissimos cupiditate. Pariatur, aspernatur quisquam vero dolores expedita nostrum maiores quae quos doloribus, necessitatibus ducimus, rem dolor delectus.</p>
+
+        <h1 class="bg-gray-200 text-gray-700 font-nunito font-bold sticky top-0">Titulo 2 holis</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima quis eaque dolore. Reprehenderit debitis modi pariatur delectus sed dolorem repudiandae, blanditiis voluptatibus quo, minima, cumque ab quae dolore labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aliquid nam. Modi voluptas a natus tenetur molestiae unde ab hic eum fuga blanditiis! Distinctio necessitatibus totam ullam eaque porro culpa!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit cum eos laudantium tempora corrupti, magni dolorem? Reprehenderit alias libero quaerat. Aliquam itaque reiciendis perferendis asperiores officia esse dolorem quos nemo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aspernatur asperiores excepturi beatae voluptatum, neque molestiae ad rerum doloribus veritatis? Harum fuga incidunt similique, cumque aliquam ad quia aspernatur voluptates.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et vel veniam nulla dignissimos cupiditate. Pariatur, aspernatur quisquam vero dolores expedita nostrum maiores quae quos doloribus, necessitatibus ducimus, rem dolor delectus.</p>
+
+        <h1 class="bg-gray-200 text-gray-700 font-nunito font-bold sticky top-0">Titulo 3 holis</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima quis eaque dolore. Reprehenderit debitis modi pariatur delectus sed dolorem repudiandae, blanditiis voluptatibus quo, minima, cumque ab quae dolore labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aliquid nam. Modi voluptas a natus tenetur molestiae unde ab hic eum fuga blanditiis! Distinctio necessitatibus totam ullam eaque porro culpa!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit cum eos laudantium tempora corrupti, magni dolorem? Reprehenderit alias libero quaerat. Aliquam itaque reiciendis perferendis asperiores officia esse dolorem quos nemo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aspernatur asperiores excepturi beatae voluptatum, neque molestiae ad rerum doloribus veritatis? Harum fuga incidunt similique, cumque aliquam ad quia aspernatur voluptates.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et vel veniam nulla dignissimos cupiditate. Pariatur, aspernatur quisquam vero dolores expedita nostrum maiores quae quos doloribus, necessitatibus ducimus, rem dolor delectus.</p>
+
+        {{-- sticky mantiene posicionado los elementos mientras hacemos scroll y siempre se ve en la pantalla --}}
     </div>
 </body>
 

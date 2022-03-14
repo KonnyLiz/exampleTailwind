@@ -525,6 +525,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .relative {
   position: relative;
 }
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
 .inset-y-0 {
   top: 0px;
   bottom: 0px;
@@ -533,11 +537,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0px;
   right: 0px;
 }
+.left-0 {
+  left: 0px;
+}
 .top-0 {
   top: 0px;
 }
-.left-0 {
-  left: 0px;
+.z-50 {
+  z-index: 50;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-40 {
+  z-index: 40;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
@@ -571,14 +584,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-3 {
   margin-top: 0.75rem;
 }
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 .mt-4 {
   margin-top: 1rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 .box-content {
   box-sizing: content-box;
@@ -610,20 +623,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-full {
   height: 100%;
 }
+.h-16 {
+  height: 4rem;
+}
 .h-screen {
   height: 100vh;
 }
 .h-12 {
   height: 3rem;
 }
-.h-16 {
-  height: 4rem;
-}
 .w-64 {
   width: 16rem;
 }
 .w-full {
   width: 100%;
+}
+.w-16 {
+  width: 4rem;
 }
 .w-1\/4 {
   width: 25%;
@@ -633,9 +649,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-screen {
   width: 100vw;
-}
-.w-16 {
-  width: 4rem;
 }
 .max-w-5xl {
   max-width: 64rem;
@@ -752,9 +765,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 .bg-red-300 {
   --tw-bg-opacity: 1;
@@ -772,17 +793,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
-}
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
-.bg-gray-800 {
+.bg-gray-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
